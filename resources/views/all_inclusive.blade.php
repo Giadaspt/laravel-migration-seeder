@@ -14,7 +14,7 @@
       <div class="holiday">
         <h3 class="pacchetto">
           pacchetto:
-          {{$all_inclusive->all_inclusive_promo}}
+          {{$all_inclusive->journey_promo}}
         </h3>
 
         <h4>
