@@ -3,10 +3,10 @@
     <li class="nav-item">
       <a class="nav-link {{(Route::currentRouteName() === 'home') ? 'active' : ''}}" href="{{ route('home') }}">Home</a>
     </li>
-    {{-- <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
     <li class="nav-item">
+      <a class="nav-link {{(Route::currentRouteName() === 'journeys') ? 'active' : ''}}" href="{{ route('journeys') }}">Viaggi</a>
+    </li>
+    {{-- <li class="nav-item">
       <a class="nav-link" href="#">Link</a>
     </li> --}}
   </ul>

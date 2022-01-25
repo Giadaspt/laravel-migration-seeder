@@ -20,7 +20,7 @@ class JourneysTableSeeder extends Seeder
             $newJourney->location = $faker->city();
             $newJourney->duration = $faker->numberBetween(2, 60);
             $newJourney->beginning_holiday = $faker->dateTimeInInterval('0 year', '+10  days' );;
-            $newJourney->end_holiday = $faker->dateTimeInInterval('0 year', '+30  days' );
+            $newJourney->end_holiday = $faker->dateTimeInInterval('0 year', '+300  days' );
             $newJourney->location_to_stay = $faker->company();
             $newJourney->description = $faker->text();
             $newJourney->price = $faker->numberBetween(300, 5000);
