@@ -6,8 +6,8 @@
     <li class="nav-item">
       <a class="nav-link {{(Route::currentRouteName() === 'journeys') ? 'active' : ''}}" href="{{ route('journeys') }}">Viaggi</a>
     </li>
-    {{-- <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li> --}}
+    <li class="nav-item">
+      <a class="nav-link  {{(Route::currentRouteName() === 'all_inclusive') ? 'active' : ''}}" href="{{ route('all_inclusive') }}">All inclusive</a>
+    </li>
   </ul>
 </header>

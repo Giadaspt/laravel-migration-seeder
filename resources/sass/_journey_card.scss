@@ -1,0 +1,23 @@
+.journey_card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pacchetto, .soggiorno_only {
+  text-transform: capitalize;
+}
+
+.holiday {
+  width: 30%;
+  border: 1px solid $white;
+  background-color: $almost_white;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+.all_inclusive  {
+  text-transform: uppercase;
+  font-weight: 500;
+}

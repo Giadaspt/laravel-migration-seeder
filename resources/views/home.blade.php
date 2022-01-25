@@ -2,9 +2,9 @@
 
 @section('content')
 
-  <div class="container mt-5">
+  <div class="container mt-5 d-flex justify-content-center">
     <h1>
-      Home
+      La vacanza perfetta per te a portata di click
     </h1>
   </div>
   

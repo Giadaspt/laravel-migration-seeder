@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PageController@index')->name('home');
 
 Route::get('/pacchetti_di_viaggio', 'JourneysController@index')->name('journeys');
+
+Route::get('/all_inclusive', 'AllInclusiveController@index')->name('all_inclusive');
